@@ -1,5 +1,0 @@
-# Eliminamos columnas que no usaremos:
-new_df.drop(['Sex','Embarked'],axis='columns',inplace=True)
-print(new_df.head(10))
-
-new_df.info()
